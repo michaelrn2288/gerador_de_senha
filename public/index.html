@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerador de Senhas</h1>
+        <form>
+            <div class="input-label-pair">
+                <label for="password-length">Quantidade de caracteres</label>
+                <input type="number" name="password-length" id="password-length">
+            </div>
+
+            <div class="input-label-pair">
+                <label for="numbers">Adicionar números</label>
+                <input type="checkbox" name="numbers" id="numbers">
+            </div>
+
+            <div class="input-label-pair">
+                <label for="letters-lower-case">Letras minúsculas</label>
+                <input type="checkbox" name="letters-lower-case" id="letters-lower-case">
+            </div>
+
+            <div class="input-label-pair">
+                <label for="letters-upper-case">Letras maiúsculas</label>
+                <input type="checkbox" name="letters-upper-case" id="letters-upper-case">
+            </div>
+
+            <div class="input-label-pair">
+                <label for="symbols">Símbolos</label>
+                <input type="checkbox" name="symbols" id="symbols">
+            </div>
+
+            <button type="button" id="btn-generate-password">Gerar senha</button>
+        </form>
+
+        <div id="result"></div>
+
+    </div>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
